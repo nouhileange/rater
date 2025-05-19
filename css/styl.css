@@ -1,0 +1,93 @@
+/* Styles personnalisés pour le site du Restaurant "Le Délice" */
+
+/* Section Héros Restaurant */
+.hero {
+  background: url('../image 4/meilleur-recette-africaine.jpeg') center/cover no-repeat;
+  color: white;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+   color:  #ffb347;
+}
+
+.hero .btn {
+  font-size: 1.1rem;
+  padding: 0.6rem 1.5rem;
+}
+
+/* Section Menu */
+#menu .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#menu .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+#menu .card-title {
+  font-weight: 600;
+}
+
+#menu .card-text {
+  font-size: 0.95rem;
+}
+
+/* Reduire la taille des images dans les cartes du menu */
+
+#menu .card-img-top {
+  max-height: 180px;
+  object-fit: cover;
+}
+/* Section À propos */
+#about img {
+  border-radius: 10px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Section Contact */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Pied de page */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: white;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107;
+}

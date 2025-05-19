@@ -1,0 +1,45 @@
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+/* Style personnalisé pour l'annonce */
+.custom-alert {
+  background: linear-gradient(90deg, #fffbe7 0%, #ffe5b4 100%);
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.15rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  margin-bottom: 0;
+  padding: 1rem 2rem;
+}
+.custom-alert a {
+  color: #e85d04;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.custom-alert a:hover {
+  color: #b35400;
+  text-decoration: none;
+}
